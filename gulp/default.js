@@ -1,5 +1,12 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
+		runseq = require('run-sequence');
 
 gulp.task('default', function() {
-	console.log('Hey-hey');
+	runseq(
+		'copy',
+		'sass',
+		'server',
+		'copy:watch',
+		'sass:watch'
+	);
 });

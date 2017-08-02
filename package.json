@@ -22,6 +22,10 @@
       "css": "dist/css"
     }
   },
+  "browserlist": [
+    "> 1%",
+    "last 2 versions"
+  ],
   "author": "mortekaik",
   "license": "ISC",
   "bugs": {
@@ -30,9 +34,12 @@
   "homepage": "https://github.com/mortekaik/amp-gulp#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
+    "gulp-replace": "^0.6.1",
     "gulp-sass": "^3.1.0",
-    "require-dir": "^0.3.2"
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.1.0"
   }
 }
