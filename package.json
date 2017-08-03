@@ -1,45 +1,45 @@
 {
-  "name": "ampgulptemplate",
-  "version": "0.0.1",
-  "description": "AMP Gulp Template",
-  "main": "index.js",
-  "scripts": {
-    "start": "gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mortekaik/amp-gulp.git"
-  },
-  "keywords": [
-    "gulp",
-    "amp"
-  ],
-  "config": {
-    "app": {
-      "scss": "app/scss"
-    },
-    "dist": {
-      "css": "dist/css"
-    }
-  },
-  "browserlist": [
-    "> 1%",
-    "last 2 versions"
-  ],
-  "author": "mortekaik",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mortekaik/amp-gulp/issues"
-  },
-  "homepage": "https://github.com/mortekaik/amp-gulp#readme",
-  "devDependencies": {
-    "autoprefixer": "^7.1.2",
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.0",
-    "gulp-replace": "^0.6.1",
-    "gulp-sass": "^3.1.0",
-    "require-dir": "^0.3.2",
-    "run-sequence": "^2.1.0"
-  }
+	"name": "ampgulptemplate",
+	"version": "0.0.1",
+	"description": "AMP Gulp Template",
+	"main": "index.js",
+	"scripts": {
+		"start": "gulp"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mortekaik/amp-gulp.git"
+	},
+	"keywords": [
+		"gulp",
+		"amp"
+	],
+	"config": {
+		"app": {
+			"scss": "app/scss"
+		},
+		"dist": {
+			"css": "dist/css"
+		}
+	},
+	"browserlist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"author": "mortekaik",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mortekaik/amp-gulp/issues"
+	},
+	"homepage": "https://github.com/mortekaik/amp-gulp#readme",
+	"devDependencies": {
+		"autoprefixer": "^7.1.2",
+		"browser-sync": "^2.18.13",
+		"gulp": "^3.9.1",
+		"gulp-postcss": "^7.0.0",
+		"gulp-replace": "^0.6.1",
+		"gulp-sass": "^3.1.0",
+		"require-dir": "^0.3.2",
+		"run-sequence": "^2.1.0"
+	}
 }
