@@ -6,6 +6,6 @@ gulp.task('server', function() {
 		server: {
 			baseDir: "dist/"
 		},
-		files: ['dist/*.html', 'build/*.css', 'build/img/*.*']
+		files: ['dist/*.html', 'dist/*.css', 'dist/img/*.*']
 	});
 });
